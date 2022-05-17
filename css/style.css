@@ -34,7 +34,7 @@ body {
     display: flex;
 }
 
-#search-input{
+#search-input {
     width: 260px;
     height: 100%;
     background: #fafafa;
@@ -43,7 +43,7 @@ body {
     text-transform: capitalize;
 }
 
-.search-btn{
+.search-btn {
     background: #fff;
     cursor: pointer;
     border: 1px solid #999;
