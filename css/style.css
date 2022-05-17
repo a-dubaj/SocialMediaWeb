@@ -21,7 +21,9 @@ body {
     background: #fff;
     border-bottom: 1px solid #999;
     padding: 10px 5vw;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
@@ -49,4 +51,43 @@ body {
     border: 1px solid #999;
     border-left: none;
     padding: 10px;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-icon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.user-profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.activity-log {
+    position: relative;
+    height: 25px;
+}
+
+.activity-container {
+    width: 350px;
+    height: auto;
+    max-height: 300px;
+    position: absolute;
+    top: 200px;
+    right: 0;
+    background: #fff;
+    border: 1px solid #999;
 }
